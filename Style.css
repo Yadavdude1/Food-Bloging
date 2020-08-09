@@ -18,7 +18,7 @@ html{
 #navbar{
     display: flex;
     align-items: center;
-    position: sticky;
+    position: fixed;
     top: 0px;
     z-index:99;
     
@@ -43,9 +43,9 @@ html{
     font-family: 'Baloo Bhai 2', cursive;
 }
 #navbar::before{
-   
+   content:"";
    background-color: #138b67b0;
-   position: fixed;
+   position: absolute;
    height:100%;
    width: 100%;
    opacity: 0.90;
