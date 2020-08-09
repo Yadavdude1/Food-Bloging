@@ -43,12 +43,13 @@ html{
     font-family: 'Baloo Bhai 2', cursive;
 }
 #navbar::before{
-   content: "";
+   
    background-color: #138b67b0;
-   position: absolute;
-   height: 100%;
+   position: fixed;
+   height:100%;
    width: 100%;
    opacity: 0.90;
+    z-index:-1;
    top: 0px;
     left: 0px;
 }
